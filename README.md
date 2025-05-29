@@ -1,6 +1,7 @@
 # Histograms of Oriented Gradients for Human Detection
 
 Franco Meng 
+
 Laine Mulvay  
 **Date:** 23-May-2025
 
