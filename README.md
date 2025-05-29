@@ -33,7 +33,6 @@ The above pre-processing approach by extracting non-human regions nearby to huma
 All non-human images are in **JPG** format and resized to **64×128** pixels.
 
 ![perfect_non_human_2](https://github.com/user-attachments/assets/633e7430-aba8-44d7-bb02-64605aa79559)
-
 ![perfect_non_human_1](https://github.com/user-attachments/assets/18c4fa46-288f-46bf-8bf7-3361ef30954f)
 
 ### 2.1 Custom Implementation of HOG Feature Descriptor
