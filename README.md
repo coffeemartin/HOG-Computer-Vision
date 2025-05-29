@@ -114,6 +114,9 @@ We examined the following 10 cell size and block size combinations:
 
 **[(2,4), (2,6), (2,8), (2,16), (4,8), (4,16), (4,32), (8,16), (8,32), (16,32)]**
 
+![cell_block_ablation](https://github.com/user-attachments/assets/d683ab40-5a32-4285-b44d-b3e26c81f95d)
+
+
 
 ### 3.2 Set 2: Bin size and Orientation Angle
 
@@ -122,6 +125,7 @@ We examined the following 9 bin size and orientation angle combinations:
 **[(3,180), (4,180), (6,180), (8,180), (9,180), (12,180), (6,360), (8,360), (12,360), (18,360)]**
 
 
+![bin_angle_ablation](https://github.com/user-attachments/assets/d13332d7-6871-46c2-a235-8e12e44a54c8)
 
 ###  3.3 Final HOG Parameters and Model
 
@@ -137,4 +141,13 @@ After conducting the ablation studies, the following parameters were selected fo
 | Block Stride   | **1**           | 1             |
 
 It is worth noting that an earlier comparison of different gradient filters was also conducted, although not included in the final report. In that initial study, the simple [-1,0,1] filter without any smoothing yielded the best performance. Dalal and Triggs (2005) offered some explanation, stating that excessive smoothing before gradient computation can damage HOG performance, highlighting the importance of preserving information retrieved from **abrupt edges at fine scales**.
+
+
+![evaluate__PETA_INRIA_h250p_nh250pp_c4_b32_n9_s1_180_unperfect_200](https://github.com/user-attachments/assets/0c0d2a68-7a02-417f-975d-91499ca8e2d6)
+
+
+![evaluate__PETA_INRIA_h250p_nh250pp_c8_b16_n9_s1_default_180_perfect_200](https://github.com/user-attachments/assets/1d2f948f-6853-4b31-9ce4-28f8db3fba19)
+
+![evaluate__PETA_INRIA_h250p_nh250pp_c8_b16_n9_s1_default_180_unperfect_200_misclassified](https://github.com/user-attachments/assets/0de5eb07-f820-415d-8fc9-2b79681de0b8)
+
 
