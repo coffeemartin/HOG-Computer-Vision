@@ -15,6 +15,10 @@ To ensure diversity in the dataset, we selected images that represent all viewin
 
 The selected human images are stored in either **JPG** or **PNG** formats and have a uniform resolution of **64×128** pixels.
 
+![perfect_human_1](https://github.com/user-attachments/assets/6a74b0a9-55ba-40a9-a68d-71d963d319e4)
+![perfect_human_2](https://github.com/user-attachments/assets/6de0d0d4-4511-4496-be58-e78c7585f1a1)
+
+
 ### 1.2 Non-human Data
 
 Non-human images were derived from the [INRIA Person Dataset](https://www.kaggle.com/datasets/jcoral02/inriaperson), which contains 1,811 images along with XML annotations that mark human regions.
