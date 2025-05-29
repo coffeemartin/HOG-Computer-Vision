@@ -55,19 +55,9 @@ Parameters:
   - 'Sobel': Weighted filter that emphasises the central pixel, offering smoother gradients and improved noise resistance.
 - `angle_` (default=180): The unit is in degrees, not radians. If set to 180°, angles wrap (e.g., 270° becomes 90°). Magnitudes and angles are computed using OpenCV's [cv2.cartToPolar](https://docs.opencv.org/3.0-beta/modules/core/doc/operations_on_arrays.html#carttopolar), which provides angle estimates with ~0.3° precision.
 
-<div align="center">
 
-![](https://docs.opencv.org/3.0-beta/_images/math/e13f10ab0aa0e4f47b0c77c23e976e75300a2b86.png){width=30%}
 
-</div>
 
-<div align="center">
-
-*Figure 7: Mathematical representation of gradient magnitude and orientation calculation using cartToPolar*
-
-</div>
-
-\newpage
 
 ### 2.3 HOG Feature Extraction Pipeline
 
