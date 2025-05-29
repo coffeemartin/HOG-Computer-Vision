@@ -1,8 +1,6 @@
 # Histograms of Oriented Gradients for Human Detection
 
-Franco Meng 
-
-Laine Mulvay  
+Franco Meng & Laine Mulvay  
 **Date:** 23-May-2025
 
 This report aims to present a clear methodology and findings on using Histogram of Oriented Gradients (HOG) and linear SVM for image classification.
